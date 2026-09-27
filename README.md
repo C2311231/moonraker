@@ -1,5 +1,20 @@
+# Moonraker - API Web Server for Klipper
 
-#  Moonraker - API Web Server for Klipper
+> **This repository is a experimental fork of Moonraker.**
+
+This fork is intended to add support for custom Arduino-based power devices and other customizations that may be needed for future projects.
+
+## Why the fork?
+
+Moonraker supports extending its functionality through components. However, this fork is intended to modify the behavior of existing components where needed. Maintaining those changes directly in a fork is cleaner and more practical for my use case than implementing them as separate components.
+
+## Relationship to upstream
+
+I intend to keep this fork as close to upstream Moonraker as practical. However, I may not always sync with upstream promptly.
+
+If you notice that this fork has fallen significantly behind upstream, feel free to open an issue and let me know.
+
+## Original README
 
 Moonraker is a Python 3 based web server that exposes APIs with which
 client applications may use to interact with the 3D printing firmware
